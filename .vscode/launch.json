@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DemoApplication<spring_boot>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.salineacademy.api.DemoApplication",
+      "projectName": "spring_boot",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-SalineAcademyApplication<spring_boot>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.salineacademy.api.SalineAcademyApplication",
+      "projectName": "spring_boot",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
