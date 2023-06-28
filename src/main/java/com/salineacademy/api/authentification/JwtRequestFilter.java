@@ -16,7 +16,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 import com.salineacademy.api.utils.JwtUtil;
 import java.io.IOException;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
 
@@ -26,10 +27,15 @@ public class JwtRequestFilter extends OncePerRequestFilter {
     @Autowired
     private JwtUtil jwtUtil;
 
+     // creating a logger
+   Logger logger = LoggerFactory.getLogger(AuthentificationController.class);
+
 @Override
 protected void doFilterInternal(HttpServletRequest request,
     HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
-      
+    
+    logger.debug("test request: " + request);
+
     String authHeader = request.getHeader("Authorization");
     String token = null;
     String username = null;

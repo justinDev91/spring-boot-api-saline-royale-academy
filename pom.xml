@@ -78,6 +78,11 @@
       <version>0.11.2</version>
       <scope>runtime</scope>
     </dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20210307</version>
+		</dependency>
 
 		 <!-- Jakarta Persistence API -->
 		<dependency>
@@ -87,10 +92,10 @@
 		</dependency>
 
 			<!-- Spring Boot Starter Data JPA -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+		</dependency> -->
 
 	</dependencies>
 
