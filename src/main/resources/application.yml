@@ -1,9 +1,9 @@
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/saline_spring_api
-    username: postgres
-    password: password
+    url: jdbc:postgresql://localhost:5432/dockerdb
+    username: dockeruser
+    password: dockerpassword
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:

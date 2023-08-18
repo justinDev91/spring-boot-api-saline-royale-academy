@@ -1,5 +1,5 @@
-package com.salineacademy.api.token;
+// package com.salineacademy.api.token;
 
-public enum TokenType {
-  BEARER
-}
+// public enum TokenType {
+//   BEARER
+// }
