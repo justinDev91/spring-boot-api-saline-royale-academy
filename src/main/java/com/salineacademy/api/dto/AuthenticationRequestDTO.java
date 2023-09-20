@@ -1,13 +1,13 @@
-// package com.salineacademy.api.dto;
+package com.salineacademy.api.dto;
 
-// import lombok.Data;
+import lombok.Data;
 
-// //@Data Generates getters for all fields
-// @Data
-// public class AuthenticationRequestDTO {
+//@Data Generates getters for all fields
+@Data
+public class AuthenticationRequestDTO {
 
-//   private String name;
+  private String name;
 
-//   private String password;
+  private String password;
 
-// }
+}
