@@ -1,5 +1,5 @@
-// package com.salineacademy.api.user;
+package com.salineacademy.api.user;
 
-// public class UserController {
+public class UserController {
   
-// }
+}
